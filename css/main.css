@@ -1,0 +1,251 @@
+@font-face {
+    font-family: "YesevaOne";
+    src: url("../fonts/YesevaOne-Regular.ttf")
+}
+
+@font-face {
+    font-family: "MullerRegular";
+    src: url("../fonts/ofont.ru_Muller.ttf")
+}
+
+@font-face {
+    font-family: "MullerBold";
+    src: url("../fonts/Bold_Muller.ttf")
+}
+
+@font-face {
+    font-family: "MullerRegularItalic";
+    src: url("../fonts/MullerMediumItalic.otf")
+}
+
+@font-face {
+    font-family: "MullerMedium";
+    src: url("../fonts/MullerMedium.otf")
+}
+
+body {
+    margin: 0;
+}
+
+.logo {
+    text-align: center;
+    border-bottom: 1px solid #ebe1cf;
+    margin: 0 auto;
+    max-width: 1920px;
+    padding-top: 50px;
+}
+
+.name {
+    font-size: 30px;
+    font-family: "YesevaOne", serif;
+    color: rgb(153, 110, 28);
+    text-transform: uppercase;
+    padding-bottom: 14px;
+}
+
+.more_name {
+    font-size: 11px;
+    font-family: "MullerRegular", serif;
+    color: rgb(153, 110, 28);
+    text-transform: uppercase;
+    padding-bottom: 52px;
+}
+
+#header-container {
+    margin: 0 auto;
+    max-width: 1920px;
+    text-align: center;
+    padding: 29px 0;
+}
+
+.header-item {
+    font-size: 12px;
+    font-family: "MullerMedium", sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.2;
+    text-decoration: none;
+    margin: 0 23px;
+}
+
+.header-item:hover {
+    color: #dc9229;
+}
+
+#main {
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+#main-container {
+    display: inline-block;
+    justify-content: center;
+
+}
+
+#organisation {
+    font-size: 45px;
+    font-family: "YesevaOne", serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.222;
+    text-align: left;
+    padding-top: 130px;
+    max-width: 588px;
+}
+
+#process {
+    display: inline-block;
+    max-width: 588px;
+    margin-bottom: 63px;
+}
+
+#process-photos {
+    display: inline-block;
+}
+
+#process-photos img:last-child {
+    margin-left: 25px;
+}
+
+#process_text-main {
+    font-size: 15px;
+    font-family: "MullerRegular", serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.333;
+    text-align: left;
+    max-width: 487px;
+    margin-bottom: 63px;
+}
+
+.process_text {
+    font-size: 15px;
+    font-family: "MullerRegular", serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.333;
+    text-align: left;
+    max-width: 277px;
+}
+
+.process_title {
+    font-size: 18px;
+    font-family: "MullerBold", serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.111;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.process-photo {
+    width: 282px;
+}
+
+.process_info {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 63px;
+}
+
+#happy-couples {
+    max-width: 1920px;
+    background-color: #faf7f2;
+}
+
+#happy-couples-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.happy-couple-example, #happy-couple-example-4 {
+    display: inline-block;
+}
+
+.happy-couple-example {
+    margin-right: 24px;
+}
+
+.happy-couple-img {
+    width: 277px;
+}
+
+#happy-couples-title {
+    font-size: 45px;
+    font-family: "YesevaOne", serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.222;
+    text-align: left;
+    padding: 119px 0 60px 0;
+}
+
+.happy-couple-text {
+    font-size: 18px;
+    font-family: "MullerMediumItalic", serif;
+    color: rgb(197, 182, 152);
+    line-height: 1.111;
+    text-align: left;
+    margin: 20px auto 85px auto;
+}
+
+#footer {
+    background-color: #f1d2bd;
+}
+
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#footer-container svg {
+    width: 30px;
+    height: 30px;
+    fill: rgb(153, 110, 28);
+    margin-top: 0;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#svg {
+    display: inline-block;
+    padding-top: 34px;
+}
+
+#footer-container svg:hover {
+    fill: rgb(108, 79, 24);
+}
+
+#footer .more_name {
+    padding-bottom: 0;
+}
+
+#logo-2 {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 30px 306px;
+}
+
+#license {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 11px;
+    font-family: "MullerRegularItalic", serif;
+    color: rgb(153, 110, 28);
+    line-height: 5;
+}
+
+.fa-star {
+    font-size: 18px;
+    color: rgb(153, 110, 28);
+    margin-right: 10px;
+}
+
+.fa-star:hover {
+    color: #714e0e;
+}
+
+#banner {
+    height: 800px;
+    background: url("../images/analise-benevides-gWedi4SWsHQ-unsplash.png");
+    background-size: cover;
+    max-width: 100%;
+}
